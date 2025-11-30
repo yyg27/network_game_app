@@ -1,0 +1,2 @@
+cat > main.py
+ls
