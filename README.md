@@ -1,2 +1,1 @@
-cat > main.py
-ls
+##network
