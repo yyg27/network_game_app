@@ -97,8 +97,13 @@ Install external dependencies via terminal:
 pip install requests beautifulsoup4
 
 ```
+Or if you want to use a virtual environment:
+```bash
+python -m venv venv
+pip install -r requirements.txt
+```
 
-> **Note:** `tkinter`, `socket`, `threading`, `sys`, `os`, `subprocess`, `platform`, `ipaddress` are standard Python libraries and do not need installation.
+> **Note:** `tkinter`, `socket`, `threading`, `sys`, `os`, `subprocess`, `platform`, `ipaddress` are standard Python libraries and do not need installation. Check requirements.txt just in case
 
 ----------
 
@@ -131,13 +136,6 @@ python modules/broadcast.py
 
 ```bash
 python game/server.py
-
-```
-
-**Start Client (GUI):**
-
-```bash
-python game/client_gui.py
 
 ```
 
