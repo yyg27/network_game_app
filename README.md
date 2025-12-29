@@ -1,5 +1,5 @@
 
-#  Python Network Toolkit & R/P/S Game Suite
+#  Network Toolkit & R/P/S Game Suite
 
 ##  Project Overview
 
@@ -164,9 +164,5 @@ python game/client.py
 -   If you restart the server quickly, the port might still be occupied. Wait a few seconds or change the port in `game/protocol.py`
 
 
-##  Author
-
-Yusuf Yiğit Gültekin 
-2023556458
 
 ----------
